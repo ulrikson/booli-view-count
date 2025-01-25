@@ -2,3 +2,5 @@ requests
 beautifulsoup4
 python-dotenv
 urllib3==1.26.15
+pandas
+matplotlib
