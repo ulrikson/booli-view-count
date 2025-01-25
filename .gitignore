@@ -40,3 +40,6 @@ htmlcov/
 
 # CSV
 *.csv
+
+# cursor
+.cursorrules
