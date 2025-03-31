@@ -1,20 +1,22 @@
 # Booli View Count
 
-A Python application for tracking and analyzing property views on Booli.se. This tool allows you to scrape view count data for specific properties and visualize the trends over time.
+## My Goal
+I wanted to track the view count on any listing on Booli. I also wanted to graph the data. The Booli interface doesn't allow this.
 
-## Features
+Features
 
 - Scrape property view counts from Booli.se
 - Store historical view data in CSV format
 - Visualize view count trends using matplotlib
 - Track multiple properties simultaneously
 
-## Prerequisites
+## Getting Started
+### Prerequisites
 
 - Python 3.x
 - Virtual environment (recommended)
 
-## Installation
+### Installation
 
 1. Clone the repository:
 
@@ -38,7 +40,7 @@ source venv/bin/activate  # On Unix/macOS
 pip install -r requirements.txt
 ```
 
-## Usage
+### Usage
 
 1. Run the main script:
 
@@ -63,19 +65,10 @@ python main.py
 python visualize_data.py
 ```
 
-## Project Structure
+### Project Structure
 
 - `main.py`: Entry point of the application
 - `booli_scraper.py`: Handles web scraping from Booli.se
 - `property_storage.py`: Manages data storage in CSV format
 - `visualize_data.py`: Creates visualizations of the view count data
 - `property_data.csv`: Stores the historical property data
-
-## Dependencies
-
-- requests: For making HTTP requests
-- beautifulsoup4: For web scraping
-- python-dotenv: For environment variable management
-- urllib3: For HTTP client functionality
-- pandas: For data manipulation
-- matplotlib: For data visualization
